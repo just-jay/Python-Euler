@@ -1,5 +1,5 @@
 #same solution as 18
-with open("67input.txt") as file:
+with open("input/67input.txt") as file:
 
 	prevRow = []
 	for line in file:

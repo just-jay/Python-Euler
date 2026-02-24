@@ -1,4 +1,4 @@
-with open("18input.txt") as file:
+with open("input/18input.txt") as file:
 
 	prevRow = []
 	for line in file:
