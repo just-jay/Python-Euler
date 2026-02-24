@@ -14,3 +14,29 @@ def lattice(n):
 
 
 lattice(20)
+
+
+'''
+ _ _
+|_|_|
+|_|_|
+
+._._.
+| | |
+._._.
+| | |
+._._.
+
+[] [] []
+[] [] []
+[] [] [] 
+
+dynamic programming 
+each vertex is an item in a list 
+the item stores how many paths pass through that vertex
+top row and left column prepopulate with 1
+
+recurrance: add i-1 and j-1 
+return n,n
+
+'''
