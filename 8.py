@@ -12,6 +12,7 @@ greatestProduct = 0
 start = 0
 end = 13
 
+#sliding window of length 13
 while end <= len(s):
 	temp = s[start:end]
 	product = getProduct(temp) 
